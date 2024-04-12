@@ -1,0 +1,155 @@
+    @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+
+    body,
+    html {
+        font-family: "Montserrat";
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(30, 38%, 92%);
+    }
+
+    .flex-container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: auto;
+
+    }
+
+    .card {
+        display: flex;
+        margin-top: 100px;
+        width: 670px;
+        height: 100%;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        padding-left: 30px;
+        border-radius: 0 10px 10px 0;
+
+    }
+
+    .offer-price {
+        color: #275d3be9;
+        ;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: "fraunces";
+    }
+
+    .before-price {
+        color: #aaa;
+        text-decoration: line-through;
+        align-self: center;
+        margin-left: 15px;
+    }
+
+    .container-btn {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .container-btn .btn {
+        padding: 13px;
+        width: 310px;
+        background-color: #275d3be9;
+        ;
+        color: #fff;
+        font-weight: 700;
+        font-size: 14px;
+        border: none;
+        border-radius: 5px;
+
+    }
+
+    .description {
+        width: 320px;
+        font-size: 19px;
+        color: #888;
+    }
+
+    .footer {
+        display: flex;
+
+
+    }
+
+    .prices {
+        margin-bottom: 20px;
+        display: flex;
+
+    }
+
+    .mobile-img {
+        display: none;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin: 0;
+        font-family: "Fraunces";
+    }
+
+    .section-img {
+        width: 300px;
+        border-radius: 10px 0 0 10px;
+    }
+
+    h4 {
+        font-weight: 400;
+
+    }
+
+    .btn img {
+        margin-right: 10px;
+    }
+
+    .btn:hover {
+        background-color: #103e21;
+    }
+
+    @media screen and (max-width:700px) {
+.flex-container {
+    justify-content: center;
+    align-content: center;
+  
+}
+        .card {
+            flex-direction: column;
+       margin: 0;
+margin-top: 30px;
+        }
+
+        .main {
+            width: 290px;
+            border-radius: 0 0 10px 10px;
+           
+            margin: auto;
+            justify-content: space-around;
+        }
+
+        img {
+            display: none;
+        }
+
+        .mobile-img {
+            display: block;
+            width: 320px;
+            border-radius: 10px 10px 0 0;
+            margin: auto;
+            
+        }
+        .container-btn .btn  {
+            width: 260px;
+        }
+    }
